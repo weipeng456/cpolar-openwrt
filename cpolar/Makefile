@@ -7,7 +7,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=cpolar
 PKG_VERSION:=3.2.85
-PKG_RELEASE:=3
+PKG_RELEASE:=4
 
 PKG_LICENSE:=MIT
 PKG_MAINTAINER:=cpolar.com
