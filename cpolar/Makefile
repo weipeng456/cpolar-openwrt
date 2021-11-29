@@ -98,11 +98,6 @@ if [ -s "$${IPKG_INSTROOT}/etc/init.d/cpolar" ] ; then
 	rm -f "$${IPKG_INSTROOT}/etc/init.d/cpolar"
 fi
 
-
-if [ -z "$${IPKG_INSTROOT}" ] ; then
-	rm -rf /tmp/luci-indexcache /tmp/luci-modulecache
-fi
-
 exit 0
 endef
 
